@@ -1,5 +1,26 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
 body {
-  cursor: url('images/dumbbell.png'), auto;
+  /* cursor: url('images/surf.png'), auto; */
 	background-color: #E5E5E5;
   font-family: 'Dancing Script', cursive;
   color: #013F56;
@@ -10,7 +31,7 @@ footer {
 }
 
 li, p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h2 {
@@ -24,6 +45,7 @@ p {
 i {
   color: #013F56;
   font-size: 2rem;
+  margin: 0 10px;
 }
 
 /* Navigation Bar */
@@ -35,7 +57,8 @@ i {
 }
 
 .transparent-bar {
-  background-color: rgb(255, 255, 255, 20%);
+  background-color: #E5E5E5;
+  border-bottom: 1px solid lightgray;
   height: 6vw;
   width: 100vw;
   position: fixed;

@@ -1,0 +1,96 @@
+body {
+  cursor: url('images/dumbbell.png'), auto;
+	background-color: #E5E5E5;
+  font-family: 'Dancing Script', cursive;
+  color: #013F56;
+}
+
+footer {
+  padding-bottom: 50px;
+}
+
+li, p {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+    font-weight: normal;
+}
+
+i {
+  color: #013F56;
+  font-size: 2rem;
+}
+
+/* Navigation Bar */
+
+#navbar li {
+  padding: 0px 70px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.transparent-bar {
+  background-color: rgb(255, 255, 255, 20%);
+  height: 6vw;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+
+/* Top Header */
+
+.top-header {
+  padding-top: 15vw;
+  padding-bottom: 5vw;
+  text-align: center;
+}
+
+.top-header h1 {
+  font-size: 6rem;
+  color: #2CA5A9;
+  padding-bottom: 40px;
+}
+
+.profile-img {
+	width: 20%;
+	border-radius: 50%;
+  padding-bottom: 15px;
+}
+
+/* Separator */
+
+.separator-line {
+  border-top: 12px dotted #013F56;
+  width: 5vw;
+  margin: 3% 0% 3% 47%;
+  color: transparent;
+}
+
+/* containers */
+
+.container {
+  padding: 0 100px;
+}
+
+.card {
+  padding: 0 35%;
+  text-align: center;
+  line-height: 24px;
+  background-color: transparent;
+  border: none
+}
+
+
+/* Spotify */
+
+.spotify {
+  width: 300px;
+  position: fixed;
+  bottom: 15px;
+  left: 40px;
+}
